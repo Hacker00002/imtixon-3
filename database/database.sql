@@ -24,5 +24,7 @@ CREATE TABLE cars{
     car_color VARCHAR(32) NOT NULL,
     car_distance VARCHAR(32) NOT NULL,
     car_gearbook VARCHAR(64) NOT NULL,
-    car_description VARCHAR(64) NOT NULL
+    deleted_at TIMESTAMP,
+    updated_at TIMESTAMP,
+    created_at TIMESTAMP
 }
